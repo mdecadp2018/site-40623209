@@ -24,8 +24,19 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
-<v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20180827201621.11" a="E"><vh>課程進度</vh>
+<v t="leo.20181007001421.1" a="E"><vh>Week1</vh>
+<v t="leo.20181007001421.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181006234738.1"><vh>Week2</vh>
+<v t="leo.20181006234738.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181006235354.1"><vh>Week3</vh>
+<v t="leo.20181006235354.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181006234740.1"><vh>Week4</vh>
+<v t="leo.20181006234740.2"><vh>內容</vh></v>
+</v>
 </v>
 <v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
@@ -124,15 +135,15 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 2018Fall 分組網際簡報
+<t tx="leo.20180827201621.10">## 2018Fall  網際簡報
 
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [40623209](http://lab.kmol.info/)
 &lt;/small&gt;
 
-[2018 Fall 分組網誌](./../blog/index.html)
+[2018 Fall 40623209 分組網誌](./../blog/index.html)
 
 
 </t>
@@ -144,16 +155,6 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 
 						
-</t>
-<t tx="leo.20180827201621.12"># 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
 </t>
 <t tx="leo.20180827201621.13">&lt;section&gt;
 @others
@@ -326,5 +327,66 @@ make.start()
 
 						
 </t>
+<t tx="leo.20181006234738.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181006234738.2"># W2
+
+學習管理期中作業倉儲中的網站內容與投影片內容</t>
+<t tx="leo.20181006234740.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181006234740.2"># W4
+
+1.學習管理期中作業倉儲中CMSimfly,Reveal,Pelican Blog
+
+2.學習使用Onshape，簡單繪製圖形，熟悉操作方法
+
+</t>
+<t tx="leo.20181006235354.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181006235354.2"># W3
+
+中秋節放假
+</t>
+<t tx="leo.20181007001421.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181007001421.2"># W1
+
+前言：大學就像是一個餐廳，不僅要吃，更要學習怎麼做，甚至是做得更好吃
+
+介紹什麼是Onshape及為何選擇Onshape
+
+說明如何建立個人的Github Pages網站</t>
 </tnodes>
 </leo_file>
