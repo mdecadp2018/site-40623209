@@ -5,6 +5,6 @@ https://mdecadp2018.github.io/site-40623209/content/index.html
 
 期中倉儲: https://github.com/mdecadp2018/site-40623209
 
-設定步驟: https://github.com/scrum-1/scrum-1.github.io/wiki
+投影片: https://mdecadp2018.github.io/site-40623209/reveal/index.html#/
 
-cpgx 網站: https://cpgx.kmol.info
+Blog : https://mdecadp2018.github.io/site-40623209/blog/index.html
