@@ -25,10 +25,10 @@
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>課程進度</vh>
-<v t="leo.20181028192318.1"><vh>Week1</vh>
+<v t="leo.20181028192318.1" a="E"><vh>Week1</vh>
 <v t="leo.20181028192318.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181006234738.1"><vh>Week2</vh>
+<v t="leo.20181006234738.1" a="E"><vh>Week2</vh>
 <v t="leo.20181006234738.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20181006235354.1"><vh>Week3</vh>
@@ -350,13 +350,13 @@ make.start()
 
 學習管理期中作業倉儲中的網站內容與投影片內容
 
-1.領取倉儲
-
-mde.tw&gt;i&gt;Week1&gt;https://classroom.github.com/a/fGqXU9kO&gt;https://github.com/mdecadp2018&gt;https://github.com/mdecadp2018/site-40623209
-
-2.更改分支
-
-https://github.com/mdecadp2018/site-40623209&gt;Settings&gt;Branches&gt;master&gt;更改&gt;gh-pages
+    1.領取倉儲
+    
+    mde.tw&gt;i&gt;Week1&gt;https://classroom.github.com/a/fGqXU9kO&gt;https://github.com/mdecadp2018&gt;https://github.com/mdecadp2018/site-40623209
+    
+    2.更改分支
+    
+    https://github.com/mdecadp2018/site-40623209&gt;Settings&gt;Branches&gt;master&gt;更改&gt;gh-pages
 </t>
 <t tx="leo.20181006234740.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -370,9 +370,9 @@ https://github.com/mdecadp2018/site-40623209&gt;Settings&gt;Branches&gt;master&g
 </t>
 <t tx="leo.20181006234740.2"># W4
 
- 1.學習管理期中作業倉儲中CMSimfly,Reveal,Pelican Blog
- 
- 2.學習使用Onshape，簡單繪製圖形，熟悉操作方法
+    1.學習管理期中作業倉儲中CMSimfly,Reveal,Pelican Blog
+    
+    2.學習使用Onshape，簡單繪製圖形，熟悉操作方法
 
 
 </t>
@@ -440,23 +440,23 @@ https://github.com/mdecadp2018/site-40623209&gt;Settings&gt;Branches&gt;master&g
 </t>
 <t tx="leo.20181028192131.2"># W7
 
-1.發生github無法登入的問題
-
-2.發生原因:
-
+    1.發生github無法登入的問題
+    
+    2.發生原因:
+    
     網路裝置與資料庫故障, 導致發生此一事件
-
-3.影響範圍:
-
+    
+    3.影響範圍:
+    
     僅影響存儲在MySQL數據庫中的網站元數據，例如問題和拉取請求 Git存儲庫數據不受影響，並且在整個事件期間一直可用。
-
-4.因應處理:
-
+    
+    4.因應處理:
+    
     各計算機程式、電腦輔助設計與協同產品設計倉儲資料除了近端與 Github 端存放外, 還必須同步到:
-
-https://about.gitlab.com/pricing/
-
-https://bitbucket.org/product/pricing 以及自建區域網路上的  Fossli SCM 主機
+    
+    https://about.gitlab.com/pricing/
+    
+    https://bitbucket.org/product/pricing 以及自建區域網路上的  Fossli SCM 主機
 
 </t>
 <t tx="leo.20181028192318.1">&lt;section data-markdown&gt;
