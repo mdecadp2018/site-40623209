@@ -9,12 +9,22 @@
 
 
 &lt;h2&gt;課程內容&lt;/h2&gt;
-&lt;h2&gt;課堂心得&lt;/h2&gt;</content><category term="2018Fall"></category></entry><entry><title>Week 7</title><link href="https://mdecadp2018.github.io/site-40623209/blog/2018-Fall-Project-Blog-7.html" rel="alternate"></link><published>2018-10-22T11:00:00+08:00</published><updated>2018-10-22T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-10-22:/site-40623209/blog/2018-Fall-Project-Blog-7.html</id><summary type="html">&lt;p&gt;前言:&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;前言:&lt;/p&gt;
+&lt;h2&gt;課堂心得&lt;/h2&gt;</content><category term="2018Fall"></category></entry><entry><title>Week 7</title><link href="https://mdecadp2018.github.io/site-40623209/blog/2018-Fall-Project-Blog-7.html" rel="alternate"></link><published>2018-10-22T11:00:00+08:00</published><updated>2018-10-22T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-10-22:/site-40623209/blog/2018-Fall-Project-Blog-7.html</id><summary type="html">&lt;p&gt;前言:github突然故障，找出其他方法解決並探討&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;前言:github突然故障，找出其他方法解決並探討&lt;/p&gt;
 
 
 &lt;h2&gt;課程內容&lt;/h2&gt;
-&lt;h2&gt;課堂心得&lt;/h2&gt;</content><category term="2018Fall"></category></entry><entry><title>Week 6</title><link href="https://mdecadp2018.github.io/site-40623209/blog/2018-Fall-Project-Blog-6.html" rel="alternate"></link><published>2018-10-15T11:00:00+08:00</published><updated>2018-10-15T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-10-15:/site-40623209/blog/2018-Fall-Project-Blog-6.html</id><summary type="html">&lt;p&gt;前言:複習前W1~W5的流程&lt;/p&gt;
+&lt;p&gt;1.發生github無法登入的問題&lt;/p&gt;
+&lt;p&gt;2.發生原因&lt;/p&gt;
+&lt;p&gt;網路裝置與資料庫故障, 導致發生此一事件&lt;/p&gt;
+&lt;p&gt;3.影響範圍&lt;/p&gt;
+&lt;p&gt;僅影響存儲在MySQL數據庫中的網站元數據，例如問題和拉取請求 Git存儲庫數據不受影響，並且在整個事件期間一直可用。&lt;/p&gt;
+&lt;p&gt;4.因應處理&lt;/p&gt;
+&lt;p&gt;各計算機程式、電腦輔助設計與協同產品設計倉儲資料除了近端與 Github 端存放外, 還必須同步到:&lt;/p&gt;
+&lt;p&gt;https://about.gitlab.com/pricing/&lt;/p&gt;
+&lt;p&gt;https://bitbucket.org/product/pricing以及自建區域網路上的 Fossli SCM 主機&lt;/p&gt;
+&lt;h2&gt;課堂心得&lt;/h2&gt;
+&lt;p&gt;因為github突然壞掉，而我正要git push的資料無法成功，剛開始不知道壞掉時還以為是我哪裡出了錯，後來發現github沒辦法登入才知道是壞掉的問題，但隔天我重新上去看時，資料已成功推送上去，原本Blog點進去是錯誤的，推完後又成功地出現，才知道原來再厲害的倉儲也有可能壞掉，我們不能只學一種方法，也認識到Fossil SCM的能力，將資料放入雲端，能夠自行維護的分散式版次管理系統，不過幸好問題最後有被解決!!&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>Week 6</title><link href="https://mdecadp2018.github.io/site-40623209/blog/2018-Fall-Project-Blog-6.html" rel="alternate"></link><published>2018-10-15T11:00:00+08:00</published><updated>2018-10-15T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-10-15:/site-40623209/blog/2018-Fall-Project-Blog-6.html</id><summary type="html">&lt;p&gt;前言:複習前W1~W5的流程&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;前言:複習前W1~W5的流程&lt;/p&gt;
 
 
