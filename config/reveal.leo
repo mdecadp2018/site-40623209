@@ -25,8 +25,8 @@
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>課程進度</vh>
-<v t="leo.20181007001421.1" a="E"><vh>Week1</vh>
-<v t="leo.20181007001421.2"><vh>內容</vh></v>
+<v t="leo.20181028192318.1"><vh>Week1</vh>
+<v t="leo.20181028192318.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20181006234738.1"><vh>Week2</vh>
 <v t="leo.20181006234738.2"><vh>內容</vh></v>
@@ -34,11 +34,20 @@
 <v t="leo.20181006235354.1"><vh>Week3</vh>
 <v t="leo.20181006235354.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181006234740.1"><vh>Week4</vh>
+<v t="leo.20181006234740.1" a="E"><vh>Week4</vh>
 <v t="leo.20181006234740.2"><vh>內容</vh></v>
 </v>
+<v t="leo.20181028192126.1" a="E"><vh>Week5</vh>
+<v t="leo.20181028192126.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
+<v t="leo.20181028192129.1" a="E"><vh>Week6</vh>
+<v t="leo.20181028192129.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181028192131.1" a="E"><vh>Week7</vh>
+<v t="leo.20181028192131.2"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -140,10 +149,10 @@ vertical: body pane on the botton</t>
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [40623209](http://lab.kmol.info/)
+Created by [KMOLab](http://lab.kmol.info/)
 &lt;/small&gt;
 
-[2018 Fall 40623209 分組網誌](./../blog/index.html)
+[ 40623209 個人網誌](./../blog/index.html)
 
 
 </t>
@@ -339,7 +348,16 @@ make.start()
 </t>
 <t tx="leo.20181006234738.2"># W2
 
-學習管理期中作業倉儲中的網站內容與投影片內容</t>
+學習管理期中作業倉儲中的網站內容與投影片內容
+
+1.領取倉儲
+
+mde.tw&gt;i&gt;Week1&gt;https://classroom.github.com/a/fGqXU9kO&gt;https://github.com/mdecadp2018&gt;https://github.com/mdecadp2018/site-40623209
+
+2.更改分支
+
+https://github.com/mdecadp2018/site-40623209&gt;Settings&gt;Branches&gt;master&gt;更改&gt;gh-pages
+</t>
 <t tx="leo.20181006234740.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -352,9 +370,10 @@ make.start()
 </t>
 <t tx="leo.20181006234740.2"># W4
 
-1.學習管理期中作業倉儲中CMSimfly,Reveal,Pelican Blog
+ 1.學習管理期中作業倉儲中CMSimfly,Reveal,Pelican Blog
+ 
+ 2.學習使用Onshape，簡單繪製圖形，熟悉操作方法
 
-2.學習使用Onshape，簡單繪製圖形，熟悉操作方法
 
 </t>
 <t tx="leo.20181006235354.1">&lt;section data-markdown&gt;
@@ -369,9 +388,9 @@ make.start()
 </t>
 <t tx="leo.20181006235354.2"># W3
 
-中秋節放假
+中秋節放假!!!
 </t>
-<t tx="leo.20181007001421.1">&lt;section data-markdown&gt;
+<t tx="leo.20181028192126.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -381,12 +400,80 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181007001421.2"># W1
+<t tx="leo.20181028192126.2"># W5
 
-前言：大學就像是一個餐廳，不僅要吃，更要學習怎麼做，甚至是做得更好吃
+     1.練習更多Onshape功能
 
-介紹什麼是Onshape及為何選擇Onshape
+</t>
+<t tx="leo.20181028192129.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 
-說明如何建立個人的Github Pages網站</t>
+
+
+						
+</t>
+<t tx="leo.20181028192129.2"># W6
+
+    1.複習W1-W5的課程，確保每個教學影片都看過並吸收完畢
+    
+    2.學習如何處理網誌的問題
+    
+    3.說明如何升級最新的CMSimfly倉儲中的flaskapp.py
+    
+    4.繼續練習Onshape
+
+
+
+</t>
+<t tx="leo.20181028192131.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181028192131.2"># W7
+
+1.發生github無法登入的問題
+
+2.發生原因:
+
+    網路裝置與資料庫故障, 導致發生此一事件
+
+3.影響範圍:
+
+    僅影響存儲在MySQL數據庫中的網站元數據，例如問題和拉取請求 Git存儲庫數據不受影響，並且在整個事件期間一直可用。
+
+4.因應處理:
+
+    各計算機程式、電腦輔助設計與協同產品設計倉儲資料除了近端與 Github 端存放外, 還必須同步到:
+
+https://about.gitlab.com/pricing/
+
+https://bitbucket.org/product/pricing 以及自建區域網路上的  Fossli SCM 主機
+
+</t>
+<t tx="leo.20181028192318.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181028192318.2"># W1
+
+ 說明如何建立個人的Github Pages網站
+
+
+</t>
 </tnodes>
 </leo_file>
