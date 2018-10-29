@@ -28,23 +28,26 @@
 <v t="leo.20181028192318.1" a="E"><vh>Week1</vh>
 <v t="leo.20181028192318.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181006234738.1" a="E"><vh>Week2</vh>
+<v t="leo.20181006234738.1"><vh>Week2</vh>
 <v t="leo.20181006234738.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20181006235354.1"><vh>Week3</vh>
 <v t="leo.20181006235354.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181006234740.1" a="E"><vh>Week4</vh>
+<v t="leo.20181006234740.1"><vh>Week4</vh>
 <v t="leo.20181006234740.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181028192126.1" a="E"><vh>Week5</vh>
+<v t="leo.20181028192126.1"><vh>Week5</vh>
 <v t="leo.20181028192126.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181028192129.1" a="E"><vh>Week6</vh>
+<v t="leo.20181028192129.1"><vh>Week6</vh>
 <v t="leo.20181028192129.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181028192131.1" a="E"><vh>Week7</vh>
+<v t="leo.20181028192131.1"><vh>Week7</vh>
 <v t="leo.20181028192131.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181029100727.1" a="E"><vh>Week8</vh>
+<v t="leo.20181029100727.2"><vh>內容</vh></v>
 </v>
 </v>
 <v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
@@ -343,8 +346,6 @@ make.start()
 &lt;/section&gt;
 
 
-
-						
 </t>
 <t tx="leo.20181006234738.2"># W2
 
@@ -459,7 +460,20 @@ make.start()
     https://bitbucket.org/product/pricing 以及自建區域網路上的  Fossli SCM 主機
 
 </t>
-<t tx="leo.20181028192318.1">&lt;section data-markdown&gt;
+<t tx="leo.20181028192318.1">@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181028192318.2"># W1
+
+ 說明如何建立個人的Github Pages網站
+
+    1.建立一個學號.github.io的個人倉儲(即40623209.github.io)並git clone到近端
+    
+    2.示範如何管理CMSimfly靜態網頁、編輯簡報內容，如何建立網誌（近端檢視，遠端加入disqus討論區連結）。
+</t>
+<t tx="leo.20181029100727.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -469,10 +483,25 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181028192318.2"># W1
+<t tx="leo.20181029100727.2"># W8
 
- 說明如何建立個人的Github Pages網站
-
+    1.發生github無法登入的問題
+    
+    2.發生原因:
+    
+    網路裝置與資料庫故障, 導致發生此一事件
+    
+    3.影響範圍:
+    
+    僅影響存儲在MySQL數據庫中的網站元數據，例如問題和拉取請求 Git存儲庫數據不受影響，並且在整個事件期間一直可用。
+    
+    4.因應處理:
+    
+    各計算機程式、電腦輔助設計與協同產品設計倉儲資料除了近端與 Github 端存放外, 還必須同步到:
+    
+    https://about.gitlab.com/pricing/
+    
+    https://bitbucket.org/product/pricing 以及自建區域網路上的  Fossli SCM 主機
 
 </t>
 </tnodes>
