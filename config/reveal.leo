@@ -46,8 +46,11 @@
 <v t="leo.20181028192131.1"><vh>Week7</vh>
 <v t="leo.20181028192131.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181029100727.1" a="E"><vh>Week8</vh>
+<v t="leo.20181029100727.1"><vh>Week8</vh>
 <v t="leo.20181029100727.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181109031640.1" a="E"><vh>Week9</vh>
+<v t="leo.20181109031640.2"><vh>內容</vh></v>
 </v>
 </v>
 <v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
@@ -503,6 +506,22 @@ make.start()
     
     https://bitbucket.org/product/pricing 以及自建區域網路上的  Fossli SCM 主機
 
+</t>
+<t tx="leo.20181109031640.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181109031640.2"># W8
+
+    1.打自評成績
+    
+    2.六人一組，並領取期末分組專題倉儲
 </t>
 </tnodes>
 </leo_file>
