@@ -5,27 +5,50 @@
 
 &lt;h2&gt;課程內容&lt;/h2&gt;
 &lt;p&gt;1.將 p37 的 stop.bat 改成&lt;/p&gt;
-&lt;p&gt;@echo off
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;@echo off
+
 set Disk=y
+
 REM 關閉 SciTE
+
 taskkill /IM Sc1.exe /F
+
 REM 關閉 python
+
 taskkill /IM python.exe /F
+
 taskkill /IM pythonw.exe /F
+
 REM 關閉 stunnel
+
 REM taskkill /IM stunnel.exe /F
+
 REM 關閉 fossil
+
 REM taskkill /IM fossil.exe /F
+
 REM taskkill /IM sharex.exe /F
+
 REM 清除 log 資料
+
 path=%PATH%;
-REM del /Q /F  V:\tmp*.*
+
+REM del /Q /F  V:\tmp\*.*
+
 REM 終止虛擬硬碟與目錄的對應
+
 subst %Disk%: /D
+
 REM 關閉 cmd 指令視窗
+
 taskkill /IM cmd.exe /F
+
 REM taskkill /IM mingw32 /F
-EXIT&lt;/p&gt;
+
+EXIT
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;p&gt;2.更改小組的  README.md&lt;/p&gt;
 &lt;p&gt;3.更改網站簡介及blog&lt;/p&gt;
 &lt;p&gt;4.整合各組員的Onshape&lt;/p&gt;
