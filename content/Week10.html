@@ -61,7 +61,33 @@ $(function(){
 
 </ul>
 </confmenu></header>
-<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='教學影片.html'>教學影片</a><ul><li><a href='Week1b.html'>Week1b</a><li><a href='Week2b.html'>Week2b</a><li><a href='Week3b.html'>Week3b</a><li><a href='Week4b.html'>Week4b</a><li><a href='Week5b.html'>Week5b</a><li><a href='Week6b.html'>Week6b</a><li><a href='Week7b.html'>Week7b</a><li><a href='Week8b.html'>Week8b</a><li><a href='Week9b.html'>Week9b</a></li></ul><li><a href='學習進度.html'>學習進度</a><ul><li><a href='Week1.html'>Week1</a><li><a href='Week2.html'>Week2</a><li><a href='Week3.html'>Week3</a><li><a href='Week4.html'>Week4</a><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a><li><a href='Week7.html'>Week7</a><li><a href='Week8.html'>Week8</a><li><a href='Week9.html'>Week9</a><li><a href='Week10.html'>Week10</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section>Week7b << <a href='Week7b.html'>Previous</a> <a href='Week9b.html'>Next</a> >> Week9b<br /><h1>Week8b</h1>
-<p>1.說明機電資整合設計專案流程所需的相關套件運用與技術</p>
-<p><iframe width="560" height="314" src="//www.youtube.com/embed/yAzfQm2gBEQ" allowfullscreen="allowfullscreen"></iframe></p>
-<br />Week7b << <a href='Week7b.html'>Previous</a> <a href='Week9b.html'>Next</a> >> Week9b</section></div></body></html>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='教學影片.html'>教學影片</a><ul><li><a href='Week1b.html'>Week1b</a><li><a href='Week2b.html'>Week2b</a><li><a href='Week3b.html'>Week3b</a><li><a href='Week4b.html'>Week4b</a><li><a href='Week5b.html'>Week5b</a><li><a href='Week6b.html'>Week6b</a><li><a href='Week7b.html'>Week7b</a><li><a href='Week8b.html'>Week8b</a><li><a href='Week9b.html'>Week9b</a></li></ul><li><a href='學習進度.html'>學習進度</a><ul><li><a href='Week1.html'>Week1</a><li><a href='Week2.html'>Week2</a><li><a href='Week3.html'>Week3</a><li><a href='Week4.html'>Week4</a><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a><li><a href='Week7.html'>Week7</a><li><a href='Week8.html'>Week8</a><li><a href='Week9.html'>Week9</a><li><a href='Week10.html'>Week10</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section>Week9 << <a href='Week9.html'>Previous</a> <a href='Python 手冊.html'>Next</a> >> Python 手冊<br /><h1>Week10</h1>
+<p>前言:下載新的p37(改版)</p>
+<p>◎課程內容</p>
+<p>1.將 p37 的 stop.bat 改成</p>
+<pre><code>@echo off
+set Disk=y
+REM 關閉 SciTE
+taskkill /IM Sc1.exe /F
+REM 關閉 python
+taskkill /IM python.exe /F
+taskkill /IM pythonw.exe /F
+REM 關閉 stunnel
+REM taskkill /IM stunnel.exe /F
+REM 關閉 fossil
+REM taskkill /IM fossil.exe /F
+REM taskkill /IM sharex.exe /F
+REM 清除 log 資料
+path=%PATH%;
+REM del /Q /F  V:\tmp\*.*
+REM 終止虛擬硬碟與目錄的對應
+subst %Disk%: /D
+REM 關閉 cmd 指令視窗
+taskkill /IM cmd.exe /F
+REM taskkill /IM mingw32 /F
+EXIT</code></pre>
+<p>2.更改小組的&nbsp; README.md</p>
+<p>3.更改網站簡介及blog</p>
+<p>4.整合各組員的Onshape</p>
+<p>◎課堂心得</p>
+<br />Week9 << <a href='Week9.html'>Previous</a> <a href='Python 手冊.html'>Next</a> >> Python 手冊</section></div></body></html>

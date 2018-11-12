@@ -49,8 +49,11 @@
 <v t="leo.20181029100727.1"><vh>Week8</vh>
 <v t="leo.20181029100727.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181109031640.1" a="E"><vh>Week9</vh>
+<v t="leo.20181109031640.1"><vh>Week9</vh>
 <v t="leo.20181109031640.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181112103301.1" a="E"><vh>Week10</vh>
+<v t="leo.20181112103301.2"><vh>內容</vh></v>
 </v>
 </v>
 <v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
@@ -522,6 +525,68 @@ make.start()
     1.打自評成績
     
     2.六人一組，並領取期末分組專題倉儲
+</t>
+<t tx="leo.20181112103301.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181112103301.2"># W10
+    1.下載新的p37(改版)
+    
+    @echo off
+    
+    set Disk=y
+    
+    REM 關閉 SciTE
+    
+    taskkill /IM Sc1.exe /F
+    
+    REM 關閉 python
+    
+    taskkill /IM python.exe /F
+    
+    taskkill /IM pythonw.exe /F
+    
+    REM 關閉 stunnel
+    
+    REM taskkill /IM stunnel.exe /F
+    
+    REM 關閉 fossil
+    
+    REM taskkill /IM fossil.exe /F
+    
+    REM taskkill /IM sharex.exe /F
+    
+    REM 清除 log 資料
+    
+    path=%PATH%;
+    
+    REM del /Q /F  V:\tmp\*.*
+    
+    REM 終止虛擬硬碟與目錄的對應
+    
+    subst %Disk%: /D
+    
+    REM 關閉 cmd 指令視窗
+    
+    taskkill /IM cmd.exe /F
+    
+    REM taskkill /IM mingw32 /F
+    
+    EXIT
+    
+    2.更改小組的  README.md
+    
+    3.更改網站簡介及blog
+    
+    4.整合各組員的Onshape
+    
 </t>
 </tnodes>
 </leo_file>
