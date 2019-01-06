@@ -25,7 +25,7 @@
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>課程進度</vh>
-<v t="leo.20181028192318.1" a="E"><vh>Week1</vh>
+<v t="leo.20181028192318.1"><vh>Week1</vh>
 <v t="leo.20181028192318.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20181006234738.1"><vh>Week2</vh>
@@ -52,8 +52,32 @@
 <v t="leo.20181109031640.1"><vh>Week9</vh>
 <v t="leo.20181109031640.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181112103301.1" a="E"><vh>Week10</vh>
+<v t="leo.20181112103301.1"><vh>Week10</vh>
 <v t="leo.20181112103301.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106200948.1"><vh>Week11</vh>
+<v t="leo.20190106200948.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106200955.1"><vh>Week12</vh>
+<v t="leo.20190106200955.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106201001.1"><vh>Week13</vh>
+<v t="leo.20190106201001.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106201007.1"><vh>Week14</vh>
+<v t="leo.20190106201007.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106201012.1"><vh>Week15</vh>
+<v t="leo.20190106201012.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106201017.1" a="E"><vh>Week16</vh>
+<v t="leo.20190106201017.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106201023.1" a="E"><vh>Week17</vh>
+<v t="leo.20190106201023.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190106201029.1" a="E"><vh>Week18</vh>
+<v t="leo.20190106201029.2"><vh>內容</vh></v>
 </v>
 </v>
 <v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
@@ -588,5 +612,156 @@ make.start()
     4.整合各組員的Onshape
     
 </t>
+<t tx="leo.20190106200948.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106200948.2"># W11
+
+     1.介紹區域輔助設計網站
+    
+    規劃使用 IPv6 協定上網
+    
+    安裝 Ubuntu 18.04 Server (各組可以在電腦教室中, 以 Virtualbox 及 IPv4 網路進行練習)
+    
+    設定純 IPv6 網路
+    
+    安裝 Nginx
+    
+    安裝 Flask 與 bs4
+    
+    安裝 uwsgi 與 Plugin
+    
+    設定 Nginx
+    
+    設定 uwsgi 啟動
+    
+    設定隨開機啟動輔助設計伺服程式
+    
+    2.各組自行討論專題
+</t>
+<t tx="leo.20190106200955.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106200955.2"># W12
+
+    1.介紹V-rep功能(將onshape的零組件輸入V-rep進行動態模擬)
+    
+    將組立完成的零組件, 以 STL 格式轉出
+    
+    將 STL 組件輸入 V-rep 後, 將零組拆解
+    
+    根據零件運動軸進行設定
+    
+    以 Lua 嵌入或 Python remote API 方式驅動各致動器進行模擬
+    
+    2.各組自行討論專題</t>
+<t tx="leo.20190106201001.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106201001.2"># W13
+
+    1.確認各組格式都相同
+    
+    2.從V-rep找到各個題目的範例及相關資訊，讓各組有更清楚的參考資料
+    
+    3.各組自行討論專題</t>
+<t tx="leo.20190106201007.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106201007.2"># W14
+
+    1.機械手臂本體初步草稿已漸漸成形，等待夾爪設計完成再做最後的設計變更
+    
+    2.討論夾爪要如何設計
+    
+    3.討論夾爪與機械手臂間的相互運動模式</t>
+<t tx="leo.20190106201012.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106201012.2"># W15
+
+    1.夾爪的初步草稿已設計完成，正在與手臂做尺寸的設計比對，比對後再進行夾爪與手臂的設計變更並訂定最終設計圖。
+    
+    2.本週大家自行將個人網誌做更新，下週開始進行v-rep的摸索與研究。</t>
+<t tx="leo.20190106201017.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106201017.2"># W16
+
+    1.夾爪與機械手臂已設計完成，也組裝完畢
+    
+    2.進行v-rep的初次摸索
+    
+    3.觀看老師的教學影片後試著將零件匯入v-rep進行初步模擬，並將遇到的困難記錄下來，共同討論解決</t>
+<t tx="leo.20190106201023.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106201023.2"># W17
+
+    1.進行v-rep模擬
+    
+    2.下週為最後一週，將進行最後的模擬與確認，並完成網誌、投影片、Final Report等所有工作</t>
+<t tx="leo.20190106201029.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190106201029.2"># W18
+
+    確認 Week10 至 Week17 週所有進度都確實完成，並重新統整瀏覽一次，做最後的確認，練習期末上台報告。</t>
 </tnodes>
 </leo_file>
